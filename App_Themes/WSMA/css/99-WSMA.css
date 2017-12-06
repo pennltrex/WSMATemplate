@@ -814,19 +814,17 @@ ol li:before { content: counter(item) ". "; counter-increment: item; color: #a62
 
 /* Reset some Telerik defaults */
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000347}}
-.RadMenu.RadMenu_WSMA { float: none; z-index: 1001 !important; position: relative; /*Move this*/ }
+.RadMenu.RadMenu_WSMA { z-index: 1001 !important; position: relative; /*Move this*/ }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000352}}
 .RadMenu.RadMenu_WSMA:focus { outline: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000355}}
 .RadMenu.RadMenu_WSMA .rmGroup, .RadMenu.RadMenu_WSMA .rmRootGroup, .RadMenu.RadMenu_WSMA .rmMultiColumn, .RadMenu.RadMenu_WSMA .rmRootGroup > .rmItem { border: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000359}}
 .RadMenu.RadMenu_WSMA .rmVertical .rmToggle .rmIcon:before, .RadMenu.RadMenu_WSMA .rmVertical .rmExpand:before, .RadMenu.RadMenu_WSMA .rmRightArrow .rmIcon:before, .RadMenu.RadMenu_WSMA .rmHorizontal .rmToggle .rmIcon:before, .RadMenu.RadMenu_WSMA .rmHorizontal .rmExpand:before, .RadMenu.RadMenu_WSMA .rmBottomArrow .rmIcon:before { content: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000364}}
-.RadMenu.RadMenu_WSMA .rmItem, .RadMenu.RadMenu_WSMA .rmHorizontal > .rmItem, .RadMenu.RadMenu_WSMA .rmHorizontal > .rmRootScrollGroup > .rmItem, .RadMenu.RadMenu_WSMA .rmLink { float: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000369}}
 .RadMenu.RadMenu_WSMA .rmLink { padding: 0px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000372}}
-.RadMenu.RadMenu_WSMA .rmText { display: inline-block; vertical-align: top; float: left; }
+.RadMenu.RadMenu_WSMA .rmText { display: inline-block; vertical-align: top; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000378}}
 .RadMenu.RadMenu_WSMA .rmRootGroup .rmRootLink .rmToggle, .RadMenu.RadMenu_WSMA .rmToggle { width: auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\0000382}}
@@ -896,7 +894,7 @@ ol li:before { content: counter(item) ". "; counter-increment: item; color: #a62
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003261}}
 .RadMenu.RadMenu_WSMA .rmRootGroup > .rmItem > .rmLink { color: #313E48; font-family: "Gotham A", "Gotham B", sans-serif; font-size: 105%; font-weight: 400; letter-spacing: 1px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003271}}
-.RadMenu.RadMenu_WSMA .rmToggle, .RadMenu.RadMenu_WSMA .rmRootGroup .rmRootLink .rmToggle { /* a clickable target to expand multi-level navigaiton */ display: inline-block; float: right; height: 100%; }
+.RadMenu.RadMenu_WSMA .rmToggle, .RadMenu.RadMenu_WSMA .rmRootGroup .rmRootLink .rmToggle { /* a clickable target to expand multi-level navigaiton */ display: inline-block; height: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003278}}
 .RadMenu.RadMenu_WSMA .rmToggle .rmIcon, .RadMenu.RadMenu_WSMA .rmRootGroup .rmRootLink .rmToggle .rmIcon { font: 0/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0; display: block; width: 23px; height: 15px; background-image: url("images/responsivenav.png"); background-repeat: no-repeat; margin-top: 15px; margin-bottom: 15px; margin-right: 15px; margin-left: 15px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003296}}
@@ -908,9 +906,7 @@ ol li:before { content: counter(item) ". "; counter-increment: item; color: #a62
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003305}}
 .RadMenu_WSMA .rmSlide { display: none; /* hide the sub nav until requested */ position: absolute; height: auto !important; top: 61px !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003311}}
-.RadMenu_WSMA .rmSlide .rmItem { float: none; display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003316}}
-.RadMenu_WSMA .rmSlide .rmText { float: none; }
+.RadMenu_WSMA .rmSlide .rmItem { display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003318}}
 .RadMenu_WSMA .rmSlide .rmLink, .RadMenu_WSMA .rmSlide .rsmLink { color: #36424a; font-family: "Gotham A", "Gotham B", sans-serif; font-size: 114%; font-weight: normal; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003326}}
@@ -933,8 +929,6 @@ ol li:before { content: counter(item) ". "; counter-increment: item; color: #a62
 .RadMenu_WSMA .rmSlide .MegaDropDownMenuSeperator .rsmLink { padding: 0; }
 @media (max-width: 767px) { @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003305}}
   .RadMenu_WSMA .rmSlide { width: 100% !important; left: 0 !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003399}}
-  .RadMenu_WSMA .rmSlide ul.rmVertical, .RadMenu_WSMA .rmSlide ul.rmHorizontal, .RadMenu_WSMA .rmSlide ul.rmRootScrollGroup { float: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003403}}
   .RadMenu_WSMA .rmSlide .rmSlide { /* for right expanded items, expand below on extra small screens */ left: 0 !important; margin-top: 64px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003409}}
@@ -943,13 +937,13 @@ ol li:before { content: counter(item) ". "; counter-increment: item; color: #a62
   .RadMenu_WSMA .rmSlide .rmToggleHandles .rmExpandRight, .RadMenu_WSMA .rmSlide .rmToggleHandles .rmGroup a.rmText.rmExpandRight { /* if toggle handles are on we don't want to display the arrow twice*/ background-image: none; } }
 
 @media (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003422}}
-  .RadMenu.RadMenu_WSMA { float: right; /* Make sure mega menus with two levels are an adequate width */ }
+  .RadMenu.RadMenu_WSMA { /* Make sure mega menus with two levels are an adequate width */ }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003425}}
   .RadMenu.RadMenu_WSMA .rmItem { white-space: nowrap; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003428}}
   .RadMenu.RadMenu_WSMA .rmRootGroup { width: auto; display: inline-block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003431}}
-  .RadMenu.RadMenu_WSMA .rmRootGroup > .rmItem { float: left; clear: none; }
+  .RadMenu.RadMenu_WSMA .rmRootGroup > .rmItem { clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003435}}
   .RadMenu.RadMenu_WSMA .rmRootGroup > .rmItem > .rmLink { margin: 0 0 -8px 0; padding-bottom: 15px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003441}}
@@ -959,7 +953,7 @@ ol li:before { content: counter(item) ". "; counter-increment: item; color: #a62
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003454}}
   .RadMenu.RadMenu_WSMA .rmSlide .rmGroup { margin: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003458}}
-  .RadMenu.RadMenu_WSMA .rmSlide .rmItem { float: none; display: block; }
+  .RadMenu.RadMenu_WSMA .rmSlide .rmItem { display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003463}}
   .RadMenu.RadMenu_WSMA .rmSlide .rmLink { margin: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003468}}
@@ -981,13 +975,13 @@ ol li:before { content: counter(item) ". "; counter-increment: item; color: #a62
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003513}}
   .RadMenu.RadMenu_WSMA .rsmLevel1 > .rsmItem > .rsmLink:hover, .RadMenu.RadMenu_WSMA .rsmLevel1 > .rsmItem > .rsmLink:active, .RadMenu.RadMenu_WSMA .rsmLevel1 > .rsmItem > .rsmLink:focus, .RadMenu.RadMenu_WSMA .rsmLevel2 > .rsmItem > .rsmLink:hover, .RadMenu.RadMenu_WSMA .rsmLevel2 > .rsmItem > .rsmLink:active, .RadMenu.RadMenu_WSMA .rsmLevel2 > .rsmItem > .rsmLink:focus { color: #a62d38; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/_breakpoint\.scss}line{font-family:\0000392}}
-.no-mqs .RadMenu.RadMenu_WSMA { float: right; /* Make sure mega menus with two levels are an adequate width */ }
+.no-mqs .RadMenu.RadMenu_WSMA { /* Make sure mega menus with two levels are an adequate width */ }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003425}}
 .no-mqs .RadMenu.RadMenu_WSMA .rmItem { white-space: nowrap; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003428}}
 .no-mqs .RadMenu.RadMenu_WSMA .rmRootGroup { width: auto; display: inline-block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003431}}
-.no-mqs .RadMenu.RadMenu_WSMA .rmRootGroup > .rmItem { float: left; clear: none; }
+.no-mqs .RadMenu.RadMenu_WSMA .rmRootGroup > .rmItem { clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003435}}
 .no-mqs .RadMenu.RadMenu_WSMA .rmRootGroup > .rmItem > .rmLink { margin: 0 0 -8px 0; padding-bottom: 15px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003441}}
@@ -997,7 +991,7 @@ ol li:before { content: counter(item) ". "; counter-increment: item; color: #a62
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003454}}
 .no-mqs .RadMenu.RadMenu_WSMA .rmSlide .rmGroup { margin: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003458}}
-.no-mqs .RadMenu.RadMenu_WSMA .rmSlide .rmItem { float: none; display: block; }
+.no-mqs .RadMenu.RadMenu_WSMA .rmSlide .rmItem { display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003463}}
 .no-mqs .RadMenu.RadMenu_WSMA .rmSlide .rmLink { margin: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/H\:\/ABM\/WSMA\/iMIS\%202017\/Design\/WSMA-GBR\/App_Themes\/WSMA\/sass\/NaturalHeritageSites\/navigation\/_primary-responsive\.scss}line{font-family:\00003468}}

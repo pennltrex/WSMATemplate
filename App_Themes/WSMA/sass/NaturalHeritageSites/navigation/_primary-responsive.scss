@@ -45,7 +45,7 @@
 
 /* Reset some Telerik defaults */
 .RadMenu.RadMenu_#{$theme-name} {
-    float: none;
+    //float: none;
     z-index: $zindex-navbar !important;
     position: relative;
 
@@ -63,7 +63,7 @@
 
     .rmItem, .rmHorizontal>.rmItem, .rmHorizontal>.rmRootScrollGroup>.rmItem,
     .rmLink {
-        float: none;
+        //float: none;
     }
 
     .rmLink {
@@ -72,7 +72,7 @@
     .rmText {
         display: inline-block;
         vertical-align: top;
-        float:left;
+        //float:left;
     }
 
     .rmRootGroup .rmRootLink .rmToggle, .rmToggle {
@@ -272,7 +272,7 @@
         /* a clickable target to expand multi-level navigaiton */
         display: inline-block;
         //margin: (-$navbar-padding-vertical) (-$navbar-padding-horizontal); 
-        float: right;
+        //float: right;
         height: 100%;
          
         .rmIcon { 
@@ -309,11 +309,11 @@
     top:61px!important;
 
     .rmItem {
-        float: none;
+        //float: none;
         display: block;
     }
 
-    .rmText { float: none; }
+    //.rmText { float: none; }
 
     .rmLink, 
     .rsmLink {
@@ -397,7 +397,7 @@
         left: 0 !important;
             
         ul.rmVertical, ul.rmHorizontal, ul.rmRootScrollGroup {
-            float: none;
+            //float: none;
         }
 
         .rmSlide {
@@ -421,7 +421,7 @@
 
 .RadMenu.RadMenu_#{$theme-name} {
     @include respond-to('grid large') {
-        float: right;
+        //float: right;
         .rmItem { 
             white-space: nowrap; 
         }
@@ -429,7 +429,7 @@
             width: auto;
             display: inline-block;
             > .rmItem {
-                float: left;
+                //float: left;
                 clear: none;
                 // This sets the spac below the menu
                 > .rmLink {
@@ -456,7 +456,7 @@
             }
 
             .rmItem {
-                float: none;
+                //float: none;
                 display: block;
             }
 

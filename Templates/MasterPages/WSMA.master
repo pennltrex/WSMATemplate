@@ -230,7 +230,7 @@
                             <!-- END: Utility Block -->
                             </div>
                             <div class="primary-navigation-area">
-                                <div class="collapse navbar-collapse nav-primary" id="navbar-collapse">
+                                <div class="navbar-collapse nav-primary" id="navbar-collapse">
                                     <!-- Primary navigation -->
                                     <asi:PageNavR ID="Primary" runat="server" NavigationPaneCode="1" StartFromRootNode="true" SelectDefaultNode="true" />
                                 </div>
